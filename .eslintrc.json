@@ -42,7 +42,10 @@
       }
     ],
     "@typescript-eslint/no-use-before-define": "off",
-    "no-use-before-define": "off"
+    "no-use-before-define": "off",
+    "import/no-extraneous-dependencies": 0,
+    "react/require-default-props": 0,
+    "react/jsx-props-no-spreading": 0
   },
   "settings": {
     "import/resolver": {
