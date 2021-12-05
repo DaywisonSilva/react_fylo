@@ -38,7 +38,8 @@
     "react/function-component-definition": [
       1,
       {
-        "namedComponents": "arrow-function"
+        "namedComponents": "arrow-function",
+        "unnamedComponents": "arrow-function"
       }
     ],
     "@typescript-eslint/no-use-before-define": "off",
