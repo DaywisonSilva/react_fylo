@@ -2,6 +2,7 @@ import styled from 'styled-components'
 
 type StyledButtonProps = {
   bg?: string
+  disabled?: Boolean
 }
 
 const StyledButton = styled.button<StyledButtonProps>`

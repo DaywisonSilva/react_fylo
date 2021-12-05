@@ -7,4 +7,10 @@ describe('<Button/>', () => {
 
     expect(screen.getByText('Button')).toBeInTheDocument()
   })
+
+  it('should be disabled', () => {
+    render(<Button label='Button' disabled />)
+
+    expect(screen.getByText('Button')).toBeDisabled()
+  })
 })
